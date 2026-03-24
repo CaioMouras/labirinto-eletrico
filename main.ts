@@ -1,10 +1,4 @@
 let erros = 0
-input.onPinPressed(TouchPin.P0, function () {
-	
-})
-input.onButtonPressed(Button.A, function () {
-	
-})
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         erros = 0
